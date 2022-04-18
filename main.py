@@ -3,6 +3,8 @@ from tkinter import filedialog
 import tkinterdnd2
 from PIL import ImageTk, Image, ImageDraw, ImageFont
 
+
+#  ----------------------------------first project idea ---------------------------------------------------
 # watermark = tkinterdnd2.Tk()
 #
 #
@@ -34,6 +36,7 @@ from PIL import ImageTk, Image, ImageDraw, ImageFont
 #
 # watermark.mainloop()
 
+# -----------------------------------------second project----------------------------------------------------
 root = Tk()
 root.withdraw()
 filename = filedialog.askopenfilename(initialdir="yourpathtodownloads", title='Select an Image:')
